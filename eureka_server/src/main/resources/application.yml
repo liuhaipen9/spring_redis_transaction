@@ -1,0 +1,13 @@
+
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+eureka.client.serviceUrl.defaultZone: http://localhost:2100/eureka
+spring:
+  application:
+    name: eureka
